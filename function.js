@@ -2,11 +2,14 @@ function createRandomMovment(ArrOfDirNums=[]){
     let index = 0;
     
     for (let i=0; i<ArrOfDirNums.length; i++){
-        currentDirection = ArrOfDirNums[i];
+        const currentDirection = ArrOfDirNums[i];
         index += 500;
+
         
 setTimeout(()=>{
-        var dir = currentDirection;
+    var dir = currentDirection;
+    console.log(currentDirection);
+        
         if (dir == 0){
    console.log("move right");        
     document.querySelector("#masthead-container").style.left = `${document.querySelector("#masthead-container").getBoundingClientRect().width*1}px`;
