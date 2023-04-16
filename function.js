@@ -1,3 +1,6 @@
+document.querySelector("#masthead-container").style.position = 'fixed';
+document.querySelector("#masthead-container").style.width = '50%';
+document.querySelector("#masthead-container").style.height = '50%';
 function createPlannedMovment(ArrOfDirNums=[]){
     let index = 0;
     
