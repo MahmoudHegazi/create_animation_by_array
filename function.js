@@ -1,4 +1,4 @@
-function createRandomMovment(ArrOfDirNums=[]){
+function createPlannedMovment(ArrOfDirNums=[]){
     let index = 0;
     
     for (let i=0; i<ArrOfDirNums.length; i++){
@@ -27,3 +27,4 @@ setTimeout(()=>{
 }, index);
    }
 }
+createPlannedMovment([0,1,2,3,0,2,0,2,0,1,3,1,3]);
